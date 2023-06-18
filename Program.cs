@@ -1,4 +1,4 @@
- using UCDPNextGenPOCs.Model;
+using UCDPNextGenPOCs.Model;
 using UCDPNextGenPOCs.Validator;
 
 var builder = WebApplication.CreateBuilder(args);
