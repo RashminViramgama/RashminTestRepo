@@ -1,0 +1,41 @@
+    html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+.header {
+    background: #05054c;
+    border-bottom: 5px solid #1c1cb7;
+}
+.login-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.validation-wrapper {
+    border-left: 3px solid red;
+    border-right: 3px solid red;
+    background: rgb(255, 0, 0, 0.12);
+    color: red;
+    padding: 5px 10px;
+}
+.validation-wrapper i{
+    margin-right:8px;
+    font-size:16px
+}
